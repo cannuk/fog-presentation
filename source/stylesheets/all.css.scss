@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import "normalize";
+@import "reveal";
+@import "theme/sky";
+
+.reveal {
+  section{
+
+    img{
+      border: 12px solid #EFEFEF;
+    }
+    .fog-frame{
+      width: 197px;
+      height: 197px;
+      margin-right: 20px;
+      display: inline-block;
+      border-spacing: 1px;
+    }
+
+  }
+}
